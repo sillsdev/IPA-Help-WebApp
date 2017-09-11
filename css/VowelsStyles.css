@@ -1,0 +1,16 @@
+.btn {
+    background-color: white;
+    border: none;
+    color: green; <!-- font color -->
+    padding: 0px 0px 0px 0px; <!-- top right bottom left -->
+    text-align: left;
+    font-size: 16px;
+}
+.circle {
+    stroke: black;
+    stroke-width: 1;
+    fill: black;
+}
+.audio {
+    audio; mpeg;
+}
