@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- Original website: http://www-01.sil.org/computing/ipahelp/ipaconsi2.htm
+The letters/characters are copied from https://en.wikipedia.org/wiki/IPA_pulmonic_consonant_chart_with_audio -->
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Vocalic Vowels</title>
+	  <link rel="stylesheet" type="text/css" href=".\css\VowelsStyles.css">
+   </head>
+   
+<body>
+
+<!-- First, build the structure. -->
+<svg width="450" height="250">
+  <polygon points="100,72 516,72 516,306 241,306" style="fill:white; stroke:black; stroke-width:2;"/>
+  <line x1="310" y1="72"  x2="382" y2="306" stroke="black" stroke-width="2"; />
+  <line x1="147" y1="150" x2="516" y2="150" stroke="black" stroke-width="2"; />
+  <line x1="193" y1="228" x2="516" y2="228" stroke="black" stroke-width="2"; />
+
+  <circle cx="100" cy="72" r="4" /> <!-- stroke="black" stroke-width="1" fill="black" -->
+  <circle cx="310" cy="72" r="4" /> <!-- stroke="black" stroke-width="1" fill="black" -->
+  <circle cx="516" cy="72" r="4" /> <!-- stroke="black" stroke-width="1" fill="black" -->
+
+  <circle cx="147" cy="150" r="4" /> <!-- stroke="black" stroke-width="1" fill="black" -->
+  <circle cx="334" cy="150" r="4" /> <!-- stroke="black" stroke-width="1" fill="black" -->
+  <circle cx="516" cy="150" r="4" /> <!-- stroke="black" stroke-width="1" fill="black" -->
+
+  <circle cx="193" cy="228" r="4" /> <!-- stroke="black" stroke-width="1" fill="black" -->
+  <circle cx="358" cy="228" r="4" /> <!-- stroke="black" stroke-width="1" fill="black" -->
+  <circle cx="516" cy="228" r="4" /> <!-- stroke="black" stroke-width="1" fill="black" -->
+
+  <circle cx="241" cy="306" r="4" /> <!-- stroke="black" stroke-width="1" fill="black" -->
+  <circle cx="382" cy="306" r="4" /> <!-- stroke="black" stroke-width="1" fill="black" -->
+  <circle cx="516" cy="306" r="4" /> <!-- stroke="black" stroke-width="1" fill="black" -->
+</svg>
+
+<div style="position:absolute; top:0px; left:10px;" >
+   <p style="font-size:24px; margin-top:10px; margin-right:50px" >
+	   <input type="button" value="&#8656;   Go Back" onClick="history.go(-1)" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Vowels</b> 
+   </p>
+</div>
+
+<!-- (3/20) Add the header titles: "Front", "Central", and "Back". -->
+<div style="position:absolute; top:50px; left:90px;  text-align:center;">Front</div>
+<div style="position:absolute; top:50px; left:294px; text-align:center;">Central</div>
+<div style="position:absolute; top:50px; left:510px; text-align:center;">Back</div>
+
+<!-- Then, add the characters. -->
+<!-- https://en.wikipedia.org/wiki/%C6%97 -->
+<!-- top row "Close" -->
+<audio id="i"><source src="./sounds/vowels/vow-00w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="y"><source src="./sounds/vowels/vow-01w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<!-- ɨ "barred i" &#407; -->
+<audio id="ɨ"><source src="./sounds/vowels/vow-02w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ʉ"><source src="./sounds/vowels/vow-03w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɯ"><source src="./sounds/vowels/vow-04w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="u"><source src="./sounds/vowels/vow-05w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+
+<!-- first row at the top -->
+<div style="position:absolute; top:70px; left:10px; text-align:left;">Close</div>
+<div style="position:absolute; top:70px; left:83px; text-align:center;">
+   <button title="close front unrounded vowel" class="btn" onclick="document.getElementById('i').play()">i</button>
+   &nbsp;
+   <button title="close front rounded vowel" class="btn" onclick="document.getElementById('y').play()">y</button>
+</div>
+<div style="position:absolute; top:70px; left:292px; text-align:center;">
+   <button title="close central unrounded vowel" class="btn" onclick="document.getElementById('ɨ').play()">&#x0268;</button>
+   &nbsp;
+   <button title="close central rounded vowel" class="btn" onclick="document.getElementById('ʉ').play()">&#x0289;</button>
+</div>
+<div style="position:absolute; top:70px; left:490px; text-align:center;">
+   <button title="close back unrounded vowel" class="btn" onclick="document.getElementById('ɯ').play()">&#x026F;</button>
+   &nbsp;
+   <button title="close back rounded vowel" class="btn" onclick="document.getElementById('u').play()">u</button>
+</div>
+
+<!-- second row from the top, between "Close" and "Close-mid" -->
+<audio id="I"><source src="./sounds/vowels/vow-06w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="Y"><source src="./sounds/vowels/vow-07w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ʊ"><source src="./sounds/vowels/vow-08w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+
+<div style="position:absolute; top:108px; left:198px; text-align:center;">
+   <button title="lowered-close front unrounded vowel" class="btn" onclick="document.getElementById('I').play()">I</button>
+   <button title="lowered-close front rounded vowel" class="btn" onclick="document.getElementById('Y').play()">Y</button>
+</div>
+<div style="position:absolute; top:108px; left:428px; text-align:center;">
+   <button title="lowered-close back rounded vowel" class="btn" onclick="document.getElementById('ʊ').play()">&#x028A;</button>
+</div>
+
+<!-- third row from the top, "Close-mid" -->
+<div style="position:absolute; top:146px; left:10px; text-align:left;">Close-mid</div>
+<audio id="e"><source src="./sounds/vowels/vow-09w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ø"><source src="./sounds/vowels/vow-10w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɘ"><source src="./sounds/vowels/vow-11w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɵ"><source src="./sounds/vowels/vow-12w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="γ"><source src="./sounds/vowels/vow-13w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="o"><source src="./sounds/vowels/vow-14w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+
+<div style="position:absolute; top:146px; left:123px; text-align:center;">
+   <button title="close-mid front unrounded vowel" class="btn" onclick="document.getElementById('e').play()">e</button>
+   &nbsp;
+   <button title="close-mid front rounded vowel" class="btn" onclick="document.getElementById('ø').play()">&oslash;</button>
+</div>
+<div style="position:absolute; top:146px; left:311px; text-align:center;">
+   <button title="close-mid central unrounded vowel" class="btn" onclick="document.getElementById('ɘ').play()">&#x0258;</button>
+   &nbsp;
+   <button title="close-mid central rounded vowel" class="btn" onclick="document.getElementById('ɵ').play()">&#x0275;</button>
+</div>
+<div style="position:absolute; top:146px; left:494px; text-align:center;">
+   <button title="close-mid back unrounded vowel" class="btn" onclick="document.getElementById('γ').play()">&gamma;</button>
+   &nbsp;
+   <button title="close-mid back rounded vowel" class="btn" onclick="document.getElementById('o').play()">o</button>
+</div>
+
+<!-- fourth row from the top, betweeh "Close-mid" and "Open-mid" -->
+<audio id="ə"><source src="./sounds/vowels/vow-15w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+
+<div style="position:absolute; top:181px; left:340px; text-align:center;">
+   <button title="mid central unrounded vowel" class="btn" onclick="document.getElementById('ə').play()">&#x0259;</button>
+</div>
+
+<!-- fifth row from the top, "Open-mid" -->
+<div style="position:absolute; top:225px; left:10px; text-align:left;">Open-mid</div>
+<audio id="ɛ"><source src="./sounds/vowels/vow-16w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="œ"><source src="./sounds/vowels/vow-17w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɜ"><source src="./sounds/vowels/vow-18w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɞ"><source src="./sounds/vowels/vow-19w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ʌ"><source src="./sounds/vowels/vow-20w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɔ"><source src="./sounds/vowels/vow-21w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+
+<div style="position:absolute; top:225px; left:172px; text-align:center;">
+   <button title="open-mid front unrounded vowel" class="btn" onclick="document.getElementById('ɛ').play()">&#x025B;</button>
+   &nbsp;
+   <button title="open-mid front rounded vowel" class="btn" onclick="document.getElementById('œ').play()">&#x0153;</button>
+</div>
+<div style="position:absolute; top:225px; left:336px; text-align:center;">
+   <button title="open-mid central unrounded vowel" class="btn" onclick="document.getElementById('ɜ').play()">&#x025C;</button>
+   &nbsp;
+   <button title="open-mid central rounded vowel" class="btn" onclick="document.getElementById('ɞ').play()">&#x025E;</button>
+</div>
+<div style="position:absolute; top:225px; left:495px; text-align:center;">
+   <button title="open-mid back unrounded vowel" class="btn" onclick="document.getElementById('ʌ').play()">&#x028C;</button>
+   &nbsp;
+   <button title="open-mid back rounded vowel" class="btn" onclick="document.getElementById('ɔ').play()">&#x0254;</button>
+</div>
+
+<!-- sixth row from the top, betweeh "Open-mid" and "Open" -->
+<audio id="æ"><source src="./sounds/vowels/vow-22w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɐ"><source src="./sounds/vowels/vow-23w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+
+<div style="position:absolute; top:262px; left:186px; text-align:center;">
+   <button title="raised-open front unrounded vowel" class="btn" onclick="document.getElementById('æ').play()">&aelig;</button>
+</div>
+<div style="position:absolute; top:262px; left:364px; text-align:center;">
+   <button title="raised-open central unrounded vowel" class="btn" onclick="document.getElementById('ɐ').play()">&#x0250;</button>
+</div>
+
+<!-- seventh row from the top, "Open" -->
+<div style="position:absolute; top:302px; left:10px; text-align:left;">Open</div>
+<audio id="a"><source src="./sounds/vowels/vow-24w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɶ"><source src="./sounds/vowels/vow-25w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɑ"><source src="./sounds/vowels/vow-26w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɒ"><source src="./sounds/vowels/vow-27w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+
+<div style="position:absolute; top:302px; left:216px; text-align:center;">
+   <button title="open front unrounded vowel" class="btn" onclick="document.getElementById('a').play()">a</button>
+   &nbsp;
+   <button title="open front rounded vowel" class="btn" onclick="document.getElementById('ɶ').play()">&#630;</button>
+</div>
+<div style="position:absolute; top:302px; left:494px; text-align:center;">
+   <button title="open back unrounded vowel" class="btn" onclick="document.getElementById('ɑ').play()">&#x0251;</button>
+   &nbsp;
+   <button title="open back rounded vowel" class="btn" onclick="document.getElementById('ɒ').play()">&#x0252;</button>
+</div>
+
+</body>
+</html>
