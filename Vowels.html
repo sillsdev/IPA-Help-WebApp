@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<!-- Original website: http://www-01.sil.org/computing/ipahelp/ipaconsi2.htm
-The letters/characters are copied from https://en.wikipedia.org/wiki/IPA_pulmonic_consonant_chart_with_audio -->
+<!-- IPA Help: http://www-01.sil.org/computing/ipahelp/index.htm?_ga=GA1.2.589134993.1489776566&_gat=1 -->
+<!-- Unicode Entity Codes for IPA: http://symbolcodes.tlt.psu.edu/bylanguage/ipachart.html -->
+<!-- HTML5 w3schools.com
+https://www.w3schools.com/html/html5_intro.asp -->
 <html>
    <head>
       <meta charset="utf-8">
-      <title>Vocalic Vowels</title>
-	  <link rel="stylesheet" type="text/css" href=".\css\VowelsStyles.css">
+	  <style type="text/css">
+		li.tab {
+			list-style-position: inside;
+		}
+		table, th, td {
+			border: 1px solid black;
+		}
+	  </style>
+      <title>Vowels</title>
+	  <link rel="stylesheet" type="text/css" href="css/VowelsStyles.css">
+	  <!-- style> This was moved to the file, "VowelsStyles.css".
+		.btn {
+			background-color: white;
+			border: none;
+			color: green; <!-- font color -->
+			<!-- padding: 0px 0px 0px 0px; -- top right bottom left -->
+			<!-- text-align: left;
+			font-size: 16px;			
+		}
+       </style -->
    </head>
    
 <body>
@@ -35,9 +55,9 @@ The letters/characters are copied from https://en.wikipedia.org/wiki/IPA_pulmoni
 </svg>
 
 <div style="position:absolute; top:0px; left:10px;" >
-   <p style="font-size:24px; margin-top:10px; margin-right:50px" >
-	   <input type="button" value="&#8656;   Go Back" onClick="history.go(-1)" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Vowels</b> 
-   </p>
+  <p style="font-size:24px; margin-top:10px; margin-right:50px ">
+     <input type="button" class="btn" value="&#8656;   Go Back" onClick="history.go(-1)" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Vowels</b>
+  </p>
 </div>
 
 <!-- (3/20) Add the header titles: "Front", "Central", and "Back". -->
@@ -48,13 +68,13 @@ The letters/characters are copied from https://en.wikipedia.org/wiki/IPA_pulmoni
 <!-- Then, add the characters. -->
 <!-- https://en.wikipedia.org/wiki/%C6%97 -->
 <!-- top row "Close" -->
-<audio id="i"><source src="./sounds/vowels/vow-00w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="y"><source src="./sounds/vowels/vow-01w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="i"><source src="vowels/vow-00w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="y"><source src="vowels/vow-01w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
 <!-- ɨ "barred i" &#407; -->
-<audio id="ɨ"><source src="./sounds/vowels/vow-02w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="ʉ"><source src="./sounds/vowels/vow-03w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="ɯ"><source src="./sounds/vowels/vow-04w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="u"><source src="./sounds/vowels/vow-05w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɨ"><source src="vowels/vow-02w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ʉ"><source src="vowels/vow-03w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɯ"><source src="vowels/vow-04w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="u"><source src="vowels/vow-05w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
 
 <!-- first row at the top -->
 <div style="position:absolute; top:70px; left:10px; text-align:left;">Close</div>
@@ -75,9 +95,9 @@ The letters/characters are copied from https://en.wikipedia.org/wiki/IPA_pulmoni
 </div>
 
 <!-- second row from the top, between "Close" and "Close-mid" -->
-<audio id="I"><source src="./sounds/vowels/vow-06w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="Y"><source src="./sounds/vowels/vow-07w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="ʊ"><source src="./sounds/vowels/vow-08w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="I"><source src="vowels/vow-06w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="Y"><source src="vowels/vow-07w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ʊ"><source src="vowels/vow-08w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
 
 <div style="position:absolute; top:108px; left:198px; text-align:center;">
    <button title="lowered-close front unrounded vowel" class="btn" onclick="document.getElementById('I').play()">I</button>
@@ -89,12 +109,12 @@ The letters/characters are copied from https://en.wikipedia.org/wiki/IPA_pulmoni
 
 <!-- third row from the top, "Close-mid" -->
 <div style="position:absolute; top:146px; left:10px; text-align:left;">Close-mid</div>
-<audio id="e"><source src="./sounds/vowels/vow-09w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="ø"><source src="./sounds/vowels/vow-10w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="ɘ"><source src="./sounds/vowels/vow-11w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="ɵ"><source src="./sounds/vowels/vow-12w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="γ"><source src="./sounds/vowels/vow-13w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="o"><source src="./sounds/vowels/vow-14w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="e"><source src="vowels/vow-09w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ø"><source src="vowels/vow-10w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɘ"><source src="vowels/vow-11w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɵ"><source src="vowels/vow-12w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="γ"><source src="vowels/vow-13w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="o"><source src="vowels/vow-14w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
 
 <div style="position:absolute; top:146px; left:123px; text-align:center;">
    <button title="close-mid front unrounded vowel" class="btn" onclick="document.getElementById('e').play()">e</button>
@@ -113,7 +133,7 @@ The letters/characters are copied from https://en.wikipedia.org/wiki/IPA_pulmoni
 </div>
 
 <!-- fourth row from the top, betweeh "Close-mid" and "Open-mid" -->
-<audio id="ə"><source src="./sounds/vowels/vow-15w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ə"><source src="vowels/vow-15w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
 
 <div style="position:absolute; top:181px; left:340px; text-align:center;">
    <button title="mid central unrounded vowel" class="btn" onclick="document.getElementById('ə').play()">&#x0259;</button>
@@ -121,12 +141,12 @@ The letters/characters are copied from https://en.wikipedia.org/wiki/IPA_pulmoni
 
 <!-- fifth row from the top, "Open-mid" -->
 <div style="position:absolute; top:225px; left:10px; text-align:left;">Open-mid</div>
-<audio id="ɛ"><source src="./sounds/vowels/vow-16w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="œ"><source src="./sounds/vowels/vow-17w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="ɜ"><source src="./sounds/vowels/vow-18w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="ɞ"><source src="./sounds/vowels/vow-19w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="ʌ"><source src="./sounds/vowels/vow-20w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="ɔ"><source src="./sounds/vowels/vow-21w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɛ"><source src="vowels/vow-16w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="œ"><source src="vowels/vow-17w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɜ"><source src="vowels/vow-18w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɞ"><source src="vowels/vow-19w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ʌ"><source src="vowels/vow-20w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɔ"><source src="vowels/vow-21w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
 
 <div style="position:absolute; top:225px; left:172px; text-align:center;">
    <button title="open-mid front unrounded vowel" class="btn" onclick="document.getElementById('ɛ').play()">&#x025B;</button>
@@ -145,8 +165,8 @@ The letters/characters are copied from https://en.wikipedia.org/wiki/IPA_pulmoni
 </div>
 
 <!-- sixth row from the top, betweeh "Open-mid" and "Open" -->
-<audio id="æ"><source src="./sounds/vowels/vow-22w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="ɐ"><source src="./sounds/vowels/vow-23w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="æ"><source src="vowels/vow-22w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɐ"><source src="vowels/vow-23w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
 
 <div style="position:absolute; top:262px; left:186px; text-align:center;">
    <button title="raised-open front unrounded vowel" class="btn" onclick="document.getElementById('æ').play()">&aelig;</button>
@@ -157,10 +177,10 @@ The letters/characters are copied from https://en.wikipedia.org/wiki/IPA_pulmoni
 
 <!-- seventh row from the top, "Open" -->
 <div style="position:absolute; top:302px; left:10px; text-align:left;">Open</div>
-<audio id="a"><source src="./sounds/vowels/vow-24w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="ɶ"><source src="./sounds/vowels/vow-25w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="ɑ"><source src="./sounds/vowels/vow-26w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
-<audio id="ɒ"><source src="./sounds/vowels/vow-27w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="a"><source src="vowels/vow-24w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɶ"><source src="vowels/vow-25w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɑ"><source src="vowels/vow-26w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
+<audio id="ɒ"><source src="vowels/vow-27w.mp3"/></audio> <!-- type="audio/mpeg"/></audio> -->
 
 <div style="position:absolute; top:302px; left:216px; text-align:center;">
    <button title="open front unrounded vowel" class="btn" onclick="document.getElementById('a').play()">a</button>

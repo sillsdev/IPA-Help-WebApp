@@ -6,6 +6,14 @@ The letters/characters are copied from https://en.wikipedia.org/wiki/IPA_pulmoni
       <meta charset="utf-8">
       <title>Vocalic Consonants</title>
 	  <link rel="stylesheet" type="text/css" href="css/Consonant_Vocalic.css">
+	  <style type="text/css">
+		li.tab {
+			list-style-position: inside;
+		}
+		table, th, td {
+			border: 1px solid black;
+		}
+	  </style>
    </head>
 
    <body>
@@ -121,7 +129,7 @@ The letters/characters are copied from https://en.wikipedia.org/wiki/IPA_pulmoni
 
 	  <div>
 		  <p style="font-size:24px">
-	         <input type="button" value="&#8656;   Go Back" onClick="history.go(-1)" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Vocalic Consonants</b>
+	         <input type="button" class="btn" value="&#8656;   Go Back" onClick="history.go(-1)" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Vocalic Consonants</b>
 	      </p>
 	  </div>
 
@@ -369,6 +377,10 @@ The letters/characters are copied from https://en.wikipedia.org/wiki/IPA_pulmoni
 		 <!-- end of Lateral Approximant row -->
 	  </table> <!-- end of top table -->
 
+	  <!-- row containing "(Non-Pulmonic)" and "Other Symbols" tables -->
+	  <table>
+		  <tr>
+			  <td> <!-- Non-Pulmonic table -->
 				  <table border="1">
 					 <tr>
 						<td><b>(Non-Pulmonic)</b></td>
@@ -413,6 +425,9 @@ The letters/characters are copied from https://en.wikipedia.org/wiki/IPA_pulmoni
 						<td>sʼ  Alveolar Fricative</td>
 					 </tr>
 				  </table>
+			  </td> <!-- end of (Non-Pulmonic) table -->
+
+			  <td> <!-- "Other Symbols" table -->
 				  <table width="550" border="1">
 					 <tr>
 						<td><b>Other Symbols</b></td>
@@ -449,5 +464,8 @@ The letters/characters are copied from https://en.wikipedia.org/wiki/IPA_pulmoni
 						<td><button title="Epiglottal Plosive " class="btn" onclick="document.getElementById('ʡ').play()">ʡ</button>   Epiglottal plosive</td>
 					 </tr> <!-- end of sixth row -->
 				  </table> <!-- end of "Other Symbols" table -->
+			  </td> <!-- end of "Other Symbols" table -->
+		  </tr>
+	  </table> <!-- end of bottom table -->
    </body>
 </html>
