@@ -1,0 +1,141 @@
+.aboutbutton {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: solid 1px #CCCCCC;
+    background: #F0F0F0;
+    padding: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+	float: right;
+	vertical-align: middle;
+}
+
+.aboutbutton:hover {
+    background: #DDDDDD;
+}
+.aboutbutton a:link, .button a:visited {
+    text-decoration: none;
+    color: #808080;
+	   font-weight: bold;
+}
+
+.backbutton {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: solid 1px #CCCCCC;
+    background: #F0F0F0;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-decoration: none;
+    color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+	float: left;
+	vertical-align: middle;
+}
+
+.backbutton:hover {
+    background: #DDDDDD;
+}
+.backbutton a:link, .button a:visited {
+    text-decoration: none;
+    color: #808080;
+	   font-weight: bold;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 2px;
+	vertical-align: middle;
+}
+
+.btn {
+    background-color: cornsilk ;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 0px 0px 0px 0px ; 
+    color: black ; 
+    text-align: center ;
+    font-size: 14pt ;
+    width: 30px;	
+}
+.btn_placeholder {
+    border-radius: 4px;
+	border: none;
+    padding: 0px 0px 0px 0px ; 
+    text-align: center ;
+	width: 30px;
+}
+.btn_long {
+    background-color: cornsilk ;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    color: black ; 
+    padding-left: 5px;
+    padding-right: 5px;	
+    text-align: center ;
+    font-size: 14pt ;
+}
+.line {
+   stroke: black ;
+   stroke-width: 2 ;
+}
+.circle {
+   stroke: black;
+   stroke-width: 1;
+   fill: black";
+}
+/* padding for placement of SVG in div */
+.vowelchart {
+	padding-left: 100px; 
+	padding-top: 72px;
+}
+
+.rotate90 {
+	transform: rotate(90deg); 
+}
+
+#toolbar-top {
+    background: lightgray;
+    -moz-box-shadow: 0 5px 5px -5px #CCC;
+    -webkit-box-shadow: 0 5px 5px -5px #CCC;
+    box-shadow: 5px 5px gray;
+    width: 100%;
+    text-align: center;
+}
+.navigation-top {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+#content {
+    max-width: 800px;
+    padding-left: 50px;
+    padding-right: 50px;
+	font-family: Charis SIL, Serif;
+	font-size: 14pt;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 350px;
+}
+table, th, td {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+.center_cell {
+	text-align: center;
+	white-space: nowrap;
+}

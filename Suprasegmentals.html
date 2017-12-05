@@ -2,32 +2,43 @@
 <!-- The letters/characters are copied from https://www.internationalphoneticassociation.org/sites/default/files/phonsymbol.pdf or from http://westonruter.github.io/ipa-chart/keyboard/ -->
 <html>
    <head>
-      <meta charset="utf-8">
-	  <style type="text/css">
-         li.tab {
-            list-style-position: inside;
-         }
-         table, th, td {
-            border: 1px solid black;
-         }
-      </style>
-      <title>Vocalic Consonants</title>
-      <link rel="stylesheet" type="text/css" href="css/Consonant_Vocalic.css">
-   </head>
-
-   <body>
-      <!-- http://www.internationalphoneticalphabet.org/ipa-charts/suprasegmentals/ -->
-	  <!-- http://westonruter.github.io/ipa-chart/keyboard/ (for right ride of chart)-->
-
-      <!-- h1>IPA Suprasegmentals</h1 -->
-      <div>
-   	     <p style="font-size:24px">
-            <input type="button" class="btn" value="&#8656;   Go Back" onClick="history.go(-1)" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>IPA Suprasegmentals</b> 
-         </p>
+    <meta charset="utf-8">
+    <title>IPA Help - [IPA Suprasegmentals]</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  </head>
+   
+  <body>
+    <!-- Navigation bar -->
+    <div id="toolbar-top">
+      <div class="navigation-top">
+        <span class="backbutton"><a href='Home Page.html' title='Main Menu'>&nbsp;&lt;&nbsp;</a></span>
+        <span class="title">IPA Help - [IPA Suprasegmentals]</span>
       </div>
+    </div>
 
-      <div>These symbols do not have audio hyperlinks.</div>
-      <table> <!-- border="1" -->
+	<div id="content">
+
+	  <audio id="phonetician"><source src="sounds/sseg-00a.mp3"/></audio>
+	  <audio id="eː"><source src="sounds/sseg-01a.mp3"/></audio>
+	  <audio id="eˑ"><source src="sounds/sseg-02a.mp3"/></audio>
+	  <audio id="ĕ"><source src="sounds/sseg-03a.mp3"/></audio>
+	  <audio id="react"><source src="sounds/sseg-04a.mp3"/></audio>
+	  
+	  <audio id="e̋"><source src="sounds/sseg-05a.mp3"/></audio>
+	  <audio id="é"><source src="sounds/sseg-06a.mp3"/></audio>
+	  <audio id="ē"><source src="sounds/sseg-07a.mp3"/></audio>
+	  <audio id="è"><source src="sounds/sseg-08a.mp3"/></audio>
+	  <audio id="ȅ"><source src="sounds/sseg-09a.mp3"/></audio>
+	  
+	  <audio id="ě"><source src="sounds/sseg-10a.mp3"/></audio>
+	  <audio id="ê"><source src="sounds/sseg-11a.mp3"/></audio>
+	  <audio id="e᷄"><source src="sounds/sseg-12a.mp3"/></audio>
+	  <audio id="e᷅"><source src="sounds/sseg-13a.mp3"/></audio>
+	  <audio id="e᷈"><source src="sounds/sseg-14a.mp3"/></audio>
+	
+	  <h1>&nbsp;</h1>
+
+      <table> 
          <tr>
             <td><center><b>Suprasegmentals</b></center></td>
             <td><center><b>Tones & Word Accents<br>Level &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contour</b></center></td>
@@ -35,31 +46,63 @@
 
          <tr>
             <td>&nbsp;ˈ &nbsp;Primary stress</td>
-            <td>&nbsp;e̋ or ˥ or 5 Extra high&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ě or ˩˥ &nbsp;Rising</td>
+            <td>&nbsp;
+			   <button title="Long"  class="btn" onclick="document.getElementById('e̋').play()">e̋</button> or e˥ or 5 Extra high&nbsp;&nbsp;&nbsp;&nbsp;
+			   <button title="Long"  class="btn" onclick="document.getElementById('ě').play()">ě</button> or ˩˥ &nbsp;Rising
+			</td>
          </tr>
 
          <tr>
-            <td>&nbsp;ˌ &nbsp;Secondary stress &nbsp;&nbsp;&nbsp;ˌfoʊnəˈtɪʃən&nbsp;&nbsp;</td>
-            <td>&nbsp;é &nbsp;&nbsp;&nbsp;&nbsp;˦ &nbsp;&nbsp;&nbsp;&nbsp;4 High &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ê &nbsp;&nbsp;&nbsp;&nbsp;˥˩ &nbsp;Falling </td>
+            <td>&nbsp;ˌ &nbsp;Secondary stress &nbsp;&nbsp;&nbsp;&nbsp;
+			   <div style="float: right;">
+                 <button title="Phonetician with superior/inferior vertical strokes" class="btn_long" onclick="document.getElementById('phonetician').play()">ˌfoʊnəˈtɪʃən</button>
+			   </div>
+			</td>
+            <td>&nbsp;
+			   <button title="Long"  class="btn" onclick="document.getElementById('é').play()">é</button> &nbsp;&nbsp;&nbsp;&nbsp;e˦ &nbsp;&nbsp;&nbsp;&nbsp;4 High &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			   <button title="Long"  class="btn" onclick="document.getElementById('ê').play()">ê</button> &nbsp;&nbsp;&nbsp;&nbsp;˥˩ &nbsp;Falling 
+			</td>
          </tr>
 
          <tr>
-            <td>&nbsp;ː &nbsp;&nbsp;Long &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eː</td>
-            <td>&nbsp;ē &nbsp;&nbsp;&nbsp;&nbsp;˧ &nbsp;&nbsp;&nbsp;&nbsp;3 Mid &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e᷄ &nbsp;&nbsp;&nbsp;&nbsp;˦˥ &nbsp;High rising</td>
+            <td>&nbsp;ː &nbsp;&nbsp;Long 
+			  <div style="float: right;">
+                <button title="Long"  class="btn" onclick="document.getElementById('eː').play()">eː</button>
+			  </div>
+			</td>
+            <td>&nbsp;
+			   <button title="Long"  class="btn" onclick="document.getElementById('ē').play()">ē</button> &nbsp;&nbsp;&nbsp;&nbsp;e˧ &nbsp;&nbsp;&nbsp;&nbsp;3 Mid &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			   <button title="Long"  class="btn" onclick="document.getElementById('e᷄').play()">e᷄</button> &nbsp;&nbsp;&nbsp;&nbsp;˦˥ &nbsp;High rising</td>
          </tr>
 
          <tr>
-            <td>&nbsp;ˑ &nbsp;&nbsp;Half-long &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;eˑ &nbsp;&nbsp;&nbsp;&nbsp;</td>
-            <td>&nbsp;è &nbsp;&nbsp;&nbsp;&nbsp;˨ &nbsp;&nbsp;&nbsp;&nbsp;2 Low &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e᷅ &nbsp;&nbsp;&nbsp;&nbsp;˩˨ &nbsp;Low rising</td>
+            <td>&nbsp;ˑ &nbsp;&nbsp;Half-long 
+			  <div style="float: right;">
+                <button title="Half-long" class="btn" onclick="document.getElementById('eˑ').play()">eˑ</button>
+			  </div>
+			</td>
+            <td>&nbsp;
+			   <button title="Long"  class="btn" onclick="document.getElementById('è').play()">è</button> &nbsp;&nbsp;&nbsp;&nbsp;e˨ &nbsp;&nbsp;&nbsp;&nbsp;2 Low &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			   <button title="Long"  class="btn" onclick="document.getElementById('e᷅').play()">e᷅</button> &nbsp;&nbsp;&nbsp;&nbsp;˩˨ &nbsp;Low rising</td>
          </tr>
 
          <tr>
-            <td>&nbsp;◌̆ &nbsp;Extra short &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ĕ</td>
-            <td>&nbsp;ȅ &nbsp;&nbsp;&nbsp;&nbsp;˩ &nbsp;&nbsp;&nbsp;&nbsp;1 Extra low &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e᷈ &nbsp;&nbsp;&nbsp;&nbsp;˧˦˧ &nbsp;Rising-falling</td>
+            <td>&nbsp;◌̆ &nbsp;Extra short 
+			  <div style="float: right;">
+                <button title="Extra short" class="btn" onclick="document.getElementById('ĕ').play()">ĕ</button>
+			  </div>
+			</td>
+            <td>&nbsp;
+			   <button title="Long"  class="btn" onclick="document.getElementById('ȅ').play()">ȅ</button> &nbsp;&nbsp;&nbsp;&nbsp;e˩ &nbsp;&nbsp;&nbsp;&nbsp;1 Extra low &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			   <button title="Long"  class="btn" onclick="document.getElementById('e᷈').play()">e᷈</button> &nbsp;&nbsp;&nbsp;&nbsp;˧˦˧ &nbsp;Rising-falling</td>
          </tr>
 
          <tr>
-            <td>. &nbsp;&nbsp;&nbsp;Syllable break ɹi.ækt</td>
+            <td>&nbsp;. &nbsp;&nbsp;&nbsp;Syllable break 
+			  <div style="float: right;">
+                <button title="Syllable break" class="btn_long" onclick="document.getElementById('react').play()">ɹi.ækt</button>
+			  </div>
+			</td>
             <td>&nbsp;&darr; &nbsp;&nbsp;&nbsp;&nbsp;Downstep &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nearr;&nbsp;&nbsp; Global rise</td>
          </tr>
 
@@ -74,7 +117,7 @@
          </tr>
 
          <tr>
-            <td>&nbsp;? &nbsp;Linking (absence of a break)<!-- find the actual "smile" character --></td>
+            <td>&nbsp;‿&nbsp; Linking (absence of a break)<!-- find the actual "smile" character --></td>
             <td></td>
          </tr>
       </table>
