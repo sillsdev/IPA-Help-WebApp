@@ -97,8 +97,9 @@
 }
 /* padding for placement of SVG in div */
 .vowelchart {
-	padding-left: 100px; 
-	padding-top: 72px;
+	padding-left: 160px; 
+	padding-top: 130px;
+	position: relative;
 }
 
 .rotate90 {

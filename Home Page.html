@@ -2,35 +2,70 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>IPA Help [Main Menu]</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IPA Help [Home Page]</title>
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!-- IPA Help styles -->
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
   </head>
    
   <body>
     <!-- Navigation bar -->
-    <div id="toolbar-top">
-      <div class="navigation-top">
-        <span class="title">IPA Help [Main Menu]</span>
-        <span class="aboutbutton"><a href='About.html' title='About IPA Help'>About</a></span>
-      </div>
-    </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <!-- Brand/logo -->
+      <a class="navbar-brand">IPA Help</a>
+  
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="Home%20Page.html">Home Page</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Vowels.html">Vowels</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Consonants.html">Consonants</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Diacritics.html">Diacritics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Suprasegmentals.html">Suprasegmentals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html">About</a>
+        </li>
+      </ul>
+    </nav>
+	
 
 	<!-- content -->
-    <div id="content">
+    <div class="container">
 
-   <h2>IPA Charts</h2>
+   <h2>IPA Help</h2>
+     <p>You can use IPA Help to do the following tasks:</p>
       <ul>
-         <li><a href="Vowels.html">Vowels</a></li>
-         <li><a href="Consonants.html">Consonants</a></li>
-         <li><a href="Diacritics.html">Diacritics</a></li>
-         <li><a href="Suprasegmentals.html">Suprasegmentals</a></li>
-         <!-- li><a href="IPA_Articulators.jpg">Articulators</a></li>
-         <li><a href="IPA_PlaceOfArticulation.jpg">Place of Articulation</a></li -->
+         <li>Hear IPA sounds by clicking their symbols in the IPA chart.</li>
       </ul>
-      <h4>Articulators</h4>
-      <div class="image"><img src="images/IPA_Articulators.jpg" alt="Chart of IPA Articulators"></div>
-      <h4>Place of Articulation</h4>
-      <div class="image"><img src="images/IPA_PlaceOfArticulation.jpg" alt="Chart of Placd of IPA Articulators"</div>
+	  <p>The pictures below show the articulators, or parts of the body used to generate sounds, and the place of articulation where various types of sounds are generated.</p>
+	  
+	  <div class="row">
+	    <div class="col-md-6">
+          <h4>Articulators</h4>
+          <div class="image"><img src="images/IPA_Articulators.jpg" alt="Chart of IPA Articulators"></div>
+		</div>
+		<div class="col-md-6">
+          <h4>Place of Articulation</h4>
+          <div class="image"><img src="images/IPA_PlaceOfArticulation.jpg" alt="Chart of Placd of IPA Articulators"</div>
+		</div>
+	  </div>
     </div>
 	
   </body>
